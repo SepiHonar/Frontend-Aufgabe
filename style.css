@@ -1,88 +1,83 @@
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 body {
-    background: url('./assets/basic-cardbackground.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+  background: url("./assets/basic-cardbackground.png") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-brand img {
-    width: 50px;
+  width: 50px;
 }
 
-.texTik span:after{
-    content: '✓';
-    color: green;
-    direction: rtl;
+.texTik span:after {
+  content: "✓";
+  color: green;
+  direction: rtl;
 }
 
 .error {
-   height: 30px;
-   color: red;
+  height: 30px;
+  color: red;
 }
-
-
-.col-mr {
-    margin-left:5px;
-}
-
 
 .itembar {
-    padding: 8px 16px;
+  padding: 8px 16px;
 }
 
-
 .under-img {
-    text-align: end;
-font-size: 1.9rem;
-color: #fff;
+  text-align: end;
+  font-size: 1.9rem;
+  color: #fff;
 }
 
 .under-forms {
-    color: #fff;
-    text-align: end;
+  color: #fff;
+  text-align: end;
 }
-
 
 .btn {
-    width: 100%;
-padding: 10px;
+  width: 100%;
+  padding: 10px;
 }
-.btn-primary{
-    font-size: small;
+.btn-primary {
+  font-size: small;
+}
+footer {
+  margin-top: auto;
 }
 
 footer ul li {
-    margin: 20px;
-    list-style-type :none;
+  margin: 20px;
+  list-style-type: none;
 }
 
-
-
 @media screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+    margin: 64px 0;
+  }
 
-    .container {
-        text-align: center;
-        margin: 64px 0;
-    }
+  .texTik .row {
+    text-align: center !important;
+  }
 
-    .texTik .row{
-        text-align: center !important;
-    }
+  .under-img {
+    text-align: center;
+  }
 
-    .under-img {
-        text-align: center;
-    }
-
-    .under-forms {
-        text-align: center;
-    }
-
-    
+  .under-forms {
+    text-align: center;
+  }
+  footer {
+    margin-top: 36%;
+    padding: 9px;
+  }
 }
